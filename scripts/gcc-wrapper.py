@@ -1,4 +1,4 @@
-#! /usr/bin/env python2
+#! /usr/bin/env python3
 # -*- coding: utf-8 -*-
 
 # Copyright (c) 2011-2017, The Linux Foundation. All rights reserved.
@@ -91,5 +91,5 @@ def run_gcc():
     return result
 
 if __name__ == '__main__':
-    status = run_gcc()
+    status = run_gcc
     sys.exit(status)
